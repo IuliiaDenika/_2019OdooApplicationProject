@@ -1,4 +1,7 @@
 target
 .idea
+<<<<<<< HEAD
 summer-2019-local-cucumber-selenium.iml
 CukersRunner
+=======
+>>>>>>> f832a36cf04c63ffb34903050fe6f1b734bd2c88
