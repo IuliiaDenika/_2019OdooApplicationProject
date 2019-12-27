@@ -1,4 +1,4 @@
-package Odoo.utilities;
+package com.Odoo.utilities;
 
 
 
