@@ -1,10 +1,14 @@
-Feature: Uer should be able to login
+Feature: Login
+As user, I should be able to login to Odoo
+under different roles with different email and password
 
-  Background:
-  Given User open the login page
-  And Make shure that we are on "Login" page
+Scenario: Login as sales manager
+Given user is on the login page
+Then user logs in as sales manager
+And user verifies that "Dashboard" page subtitle is displayed
 
-    Scenario: Login as contact
-      When The user enter  the contact information
-      Then the user should be able to login
+Scenario: Login as inventory manager
+Given user is on the login page
+Then user logs in as inventory manager
+And user verifies that "Dashboard" page subtitle is displayed
 
