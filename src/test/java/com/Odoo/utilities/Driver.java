@@ -15,14 +15,10 @@ public class Driver {
 
     }
 
-    // if switch statement complains on string parameter
-    //change java version to 7+, better at least 8
-    //File--> Project Sructure --> Set Project Language level to at least 8 or above
-
     public static WebDriver get() {
-        //if webdriver object was not created yet
+
         if (driver ==null) {
-            //cretaed  webdriver object based on browser value from properties file
+
 
             String browser = ConfigurationReader.getProperty("browser");
             switch (browser) {

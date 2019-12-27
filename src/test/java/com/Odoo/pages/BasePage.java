@@ -64,7 +64,7 @@ public abstract class BasePage {
     }
 
 
-    public void navigateTo(String moduleName) {
+    public void navigateTo(String module, String moduleName) {
         Actions actions = new Actions(Driver.get());
 
         String tabLocator ="//*[normalize-space()='" + moduleName + "' and @class= 'oe_menu_text']";
