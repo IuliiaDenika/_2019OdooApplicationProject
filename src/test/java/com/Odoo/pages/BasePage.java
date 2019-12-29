@@ -37,6 +37,8 @@ public abstract class BasePage {
     public WebElement List;
 
 
+    @FindBy (xpath = "//a[@data-menu='68']")
+    public WebElement ContactsLink;
 
 
     public BasePage() {
@@ -64,7 +66,7 @@ public abstract class BasePage {
     }
 
 
-    public void navigateTo(String moduleName) {
+    public void navigateTo(String moduleName, String subModuleName) {
         Actions actions = new Actions(Driver.get());
 
         String tabLocator ="//*[normalize-space()='" + moduleName + "' and @class= 'oe_menu_text']";

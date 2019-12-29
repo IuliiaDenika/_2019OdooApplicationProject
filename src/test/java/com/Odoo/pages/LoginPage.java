@@ -17,7 +17,7 @@ public class LoginPage extends BasePage{
     @FindBy(id = "login") //this line will initialize web element
     public WebElement loginInput;
 
-    @FindBy(id = "login2")//without findby, web element will be null
+    @FindBy(id = "password")//without findby, web element will be null
     public WebElement passwordInput;
 
     @FindBy(xpath = "submit")
@@ -42,7 +42,7 @@ public class LoginPage extends BasePage{
      * @param password
      */
     public void login(String userName, String password){
-        emailInput.sendKeys(userName);
+        loginInput.sendKeys(userName);
         //Keys.ENTER to replace login click
         passwordInput.sendKeys(password, Keys.ENTER);
     }

@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.Odoo</groupId>
-    <artifactId>summer-2019-local-cucumber-selenium</artifactId>
+    <artifactId>_2019OdooAplicationProject</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -54,7 +54,7 @@
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                     <includes>
-                        <include>**/*CukesRunner.java</include>
+                        <include>**/*CuckesRunner.java</include>
                     </includes>
                 </configuration>
             </plugin>

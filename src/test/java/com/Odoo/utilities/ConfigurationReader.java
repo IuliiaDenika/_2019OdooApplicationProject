@@ -28,11 +28,13 @@ public class ConfigurationReader {
             configFile.load(fileInputStream);
             //close input stream
             fileInputStream.close();
-        } catch (IOException e) {
+        } catch (Exception e) {
             System.out.println("Failed to load properties file!");
             e.printStackTrace();
         }
     }
+
+
 
     public static String getProperty(String key) {
         return configFile.getProperty(key);

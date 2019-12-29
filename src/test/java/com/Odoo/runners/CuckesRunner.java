@@ -9,8 +9,10 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/Odoo/step_definitions",
         dryRun = false,
-        tags = "@smoke_test",
-        plugin = {"html:target/default-cucumber-reports"}
+      //  tags = "@smoke_test",
+        tags ="@KalininTest",
+       // plugin = {"html:target/default-cucumber-reports"}
+        plugin = {"json:target/cucumber.json"}
 )
 
 
