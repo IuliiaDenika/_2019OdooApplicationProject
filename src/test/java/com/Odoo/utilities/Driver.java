@@ -17,7 +17,7 @@ public class Driver {
 
     public static WebDriver get() {
 
-        if (driver ==null) {
+        if (driver == null) {
 
 
             String browser = ConfigurationReader.getProperty("browser");
@@ -54,7 +54,7 @@ public class Driver {
 
     public static void close() {
 
-        if (driver !=null) {
+        if (driver != null) {
             driver.quit();
             driver = null;
         }
