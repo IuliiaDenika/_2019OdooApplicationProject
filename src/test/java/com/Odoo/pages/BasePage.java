@@ -18,6 +18,7 @@ public abstract class BasePage {
 
     //////
 
+
     @FindBy(css = "[class='o_loading']")
     public WebElement loaderMask;
 
