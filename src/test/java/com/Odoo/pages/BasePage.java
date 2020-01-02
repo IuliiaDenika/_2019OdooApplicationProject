@@ -16,6 +16,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public abstract class BasePage {
 
+    //////
+
     @FindBy(css = "[class='o_loading']")
     public WebElement loaderMask;
 
