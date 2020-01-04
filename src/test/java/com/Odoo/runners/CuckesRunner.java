@@ -12,7 +12,8 @@ import org.junit.runner.RunWith;
       //  tags = "@smoke_test",
         tags ="@KalininTest",
        // plugin = {"html:target/default-cucumber-reports"}
-        plugin = {"json:target/cucumber.json"}
+        plugin = {"json:target/cucumber.json","html:target/default-cucumber-reports"}
+
 )
 
 
