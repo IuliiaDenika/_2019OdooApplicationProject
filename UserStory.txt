@@ -11,11 +11,14 @@ Dima: User should be able to do import the excel file
 Mikray: As an inventory manager I should be able to login Odoor and able to access contact
 
 
-Tabriz: user  should be able to reserve a meeting
+Tabriz: User  should be able to reserve a meeting
 
 
 Yulia: User should be able to create contact of the Company
 
 
-Hicham:
+Hicham: User should be able to create a repaid order under repair tab
+
+
+Joseph: User should be able to create stock operations under the transfers tab
 
